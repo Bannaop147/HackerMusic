@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By Aarav banna
+# Copyright (C) 2021 By Aarav Banna
 
 import asyncio
 from pyrogram import Client, filters
