@@ -1,8 +1,8 @@
 {
-  "name": "Devil Hacker Music",
+  "name": "Aarav Banna Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/rakeshyt",
+  "repository": "https://github.com/Bannaop143",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -15,7 +15,7 @@
       "value": ""
     },
     "BOT_USERNAME": {
-      "description": "Put Bot Username Without '@' Ex:- DevilTrishaRoBot",
+      "description": "Put Bot Username Without '@' Ex:- (Your Music Bot Name)",
       "required": true,
       "value": "DevilTrishaRoBot"
     },
