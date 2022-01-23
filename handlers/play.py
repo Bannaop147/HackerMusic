@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: 👑ᵛ͢ᵎᵖ𝄟⏤͟͟͞͞⃝🇮🇳𝐋𝐄𝐆𝐄𝐍𝐃◄⏤͟͞❀͢❱ ⃟𝐑𝐀𝐉༽༎͢ (@JaiHindChatting)",
+        f"Powered By: 👑ᵛ͢ᵎᵖ𝄟⏤͟͟͞͞⃝🇮🇳AARAV◄⏤͟͞❀͢❱ ⃟BANNA༽༎͢ (@bestwalefriends)",
         (255, 255, 255),
         font=font,
     )
@@ -186,7 +186,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/bestwalefriends")
 
                 ]
             ]
@@ -225,7 +225,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/bestwalefriends")
 
                 ]
             ]
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/bestwalefriends")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jøɩɳ Ɦɘɤɘ & Sʋƥƥøɤʈ 💞",
-                            url=f"https://t.me/JaiHindChatting")
+                            url=f"https://t.me/bestwalefriends")
 
                 ]
             ]
@@ -317,7 +317,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 ṀṳṠḭḉ\nɅɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
+            caption="**💥 AARAV 🇮🇳 BANNA 🤞 ṀṳṠḭḉ\nɅɗɗɘɗ 💿 Søɳʛ❗️\n🔊 Ʌʈ 💞 Ƥøsɩʈɩøɳ » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 Mʋsɩƈ  💞\n🎸 Nøω 🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
+            caption="**💥 AARAV 🇮🇳 BANNA 🤞 Mʋsɩƈ  💞\n🎸 Nøω 🔊 Ƥɭɑyɩɳʛ 😍 ØƤ 🥀 ...**".format(),
         )
 
     os.remove("final.png")
@@ -348,7 +348,7 @@ async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 Mʋsɩƈ\n💞Nøω 🥀 ▶️ Ƥɑʋsɘɗ 🌷 ...**"
+                             caption="**💥 AARAV 🇮🇳 BANNA 🤞 Mʋsɩƈ\n💞Nøω 🥀 ▶️ Ƥɑʋsɘɗ 🌷 ...**"
     )
 
 
@@ -359,7 +359,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 Mʋsɩƈ\nNøω 🥀 ⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
+                             caption="**💥 AARAV 🇮🇳 BANNA 🤞 Mʋsɩƈ\nNøω 🥀 ⏸ Ƥɭɑyɩɳʛ 🌷 ...**"
     )
 
 
@@ -374,7 +374,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALL.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALL:
-        await message.reply_text("**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🤞 ṀṳṠḭḉ 💞\nƝøʈɦɩɳʛ 🔇 🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
+        await message.reply_text("**💥 AARAV 🇮🇳 BANNA 🤞 ṀṳṠḭḉ 💞\nƝøʈɦɩɳʛ 🔇 🚫 Ƥɭɑyɩɳʛ 🌷 ...**")
     else:
         callsmusic.queues.task_done(chat_id)
 
@@ -393,7 +393,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption=f'**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ🤞\nNøω 🥀 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
+                             caption=f'**💥 AARAV 🇮🇳 BANNA 🔈 Mʋsɩƈ🤞\nNøω 🥀 ⏩ Sƙɩƥƥɘɗ 🌷 ...**'
    ) 
 
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg", 
-                             caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
+                             caption="**💥 AARAV 🇮🇳 BANNA 🔈 Mʋsɩƈ\n🤞Nøω 🥀 ❌ Sʈøƥƥɘɗ 🌷 ...**"
     )
 
 
@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/8fddb775d567de8a63940.jpg",
-                              caption="**💥 ḊḕṼḭḶ 🇮🇳 ḦḀḉḲḕṙ 🔈 Mʋsɩƈ🤞\nNøω 🥀🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
+                              caption="**💥 AARAV 🇮🇳 BANNA 🔈 Mʋsɩƈ🤞\nNøω 🥀🔥 Ʀɘɭøɑɗɘɗ 🌷 ...**"
     )
